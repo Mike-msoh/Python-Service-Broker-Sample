@@ -49,8 +49,8 @@ X_BROKER_API_VERSION = 2.11
 X_BROKER_API_VERSION_NAME = 'X-Broker-Api-Version'
 
 # Configure our test username
-app.config['BASIC_AUTH_USERNAME'] = 'fido-user'
-app.config['BASIC_AUTH_PASSWORD'] = 'fido-pwd'
+app.config['BASIC_AUTH_USERNAME'] = 'py-user'
+app.config['BASIC_AUTH_PASSWORD'] = 'py-pwd'
 # Switch off pretty printing of JSON data
 app.config['JSONIFY_PRETTYPRINT_REGULAR']=False
 
@@ -75,6 +75,7 @@ error_response = {'error':'unspecified'}
 # Global Variables : FIDO Specific
 #############################################################
 
+# fido admin URL to get the credential
 fido_admin_url = "http://169.46.149.205:8102/api/v1/relyingparties"   
 service_dashboard = "http://fido-ui-service.mybluemix.net"
 

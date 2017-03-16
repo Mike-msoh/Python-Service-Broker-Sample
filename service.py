@@ -7,7 +7,7 @@ def fidosvc():
 	fido_service_id = uuid.uuid4() # Generate unique service ID
 	fido_service = {
 	    'id' : fido_service_id, 
-	    'name' : 'nexsign-auth-service',
+	    'name' : 'py-auth-service',
 	    'description' : 'fido service to showcase management of private brokers',
 	    'bindable' : True, 
 	    'tags' : ['private'], 
