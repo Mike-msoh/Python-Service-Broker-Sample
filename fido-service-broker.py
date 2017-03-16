@@ -259,8 +259,9 @@ def bind(instance_id, binding_id):
         # DO Not Call This post call. 
         # fido_response = requests.get(fido_admin_url, headers=headers, timeout=5)
         # Use a sample result of credential to test
-        fido_response = result
-        fido_response_object = fido_response.json()
+        # fido_response_object = fido_response.json()
+        fido_response_object = result
+
         # print("fido_response_object : ", fido_response_object)
         # print("fido_response_object['items'] : ", fido_response_object['items'])
         # print("fido_response_object['items'] appid : ", fido_response_object['items'][0]['appId'])
