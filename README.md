@@ -8,7 +8,7 @@
 0. Change host name of manifest.yml
 1. Change Service.name in python-service-broker.py to your unique name. (default : py-auth-service)
 2. Deploy your app (ex. cf push)
-3. Register Service Broker (ex. cf create-service-broker <Broker Name> py-user py-pwd https://<Your Host>.mybluemix.net --space-scoped)
+3. Register Service Broker (ex. cf create-service-broker Your-Broker-Name py-user py-pwd https://YourHost.mybluemix.net --space-scoped)
 4. List if the broker registered properly. (ex. cf service-brokers)
 5. Provision a service (ex. cf create-service py-auth-service fidoplan-a Fido-Service)
 6. Execute Bind, Unbind and Unprovision on Bluemix dashboard
