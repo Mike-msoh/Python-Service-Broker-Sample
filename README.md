@@ -11,6 +11,7 @@
 3. Register Service Broker (ex. cf create-service-broker <Broker Name> py-user py-pwd https://<Your Host>.mybluemix.net --space-scoped)
 4. List if the broker registered properly. (ex. cf service-brokers)
 5. Provision a service (ex. cf create-service py-auth-service fidoplan-a Fido-Service)
+6. Execute Bind, Unbind and Unprovision on Bluemix dashboard
 
 # Contribute / Contact Information
 If you have found errors or some instructions are not working anymore, then please open an GitHub issue or, better, create a pull request with your desired changes.
