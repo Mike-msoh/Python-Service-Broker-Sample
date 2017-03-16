@@ -229,18 +229,23 @@ def bind(instance_id, binding_id):
 
     #This is a sample result of credential
 
-    result={"credentials":     
+    result={
+            "statusCode": "1200", "total": 3, "firstResult": "1", "items": 
+            [
                 {
-                  "statusCode": "1200",
-                  "id": '83b39eb7-3ac9-4fe6-8fc2-0c42fa015606',
-                  "status": "ENABLED",
-                  "name": "MyBankingService",
-                  "apiKey": '5cb69f54-4f1f-4b0f-911f-e1d09dc360f1',
-                  "statusMessage": "success",
-                  "createUserId": "admin"
-                }
+                "id": "83b39eb7-3ac9-4fe6-8fc2-0c42fa015606", "apiKey": "1c09759d-59d9-42c8-9657-c4c1d6ea9fbe", "name": "test",
+                "description": "test",
+                "status": "1",
+                "admin": "0",
+                "createDate": "2016-10-18 09:42:50",
+                "createUserId": "admin",
+                "updateDate": "2016-10-18 09:42:50", "updateUserId": "admin",
+                "appId": "http://naver.com"
+                } 
+            ],
+            "maxResults": 10,
+            "statusMessage": "sucess" 
             }
-
 
     # #Prepare for headers
     headers = {
