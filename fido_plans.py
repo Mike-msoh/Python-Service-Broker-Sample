@@ -12,7 +12,8 @@ def plan_b():
 	plan = {"name" : "fidoplan-b",
 		"description" : "Describe the characteristics of this plan. For example, Dedicated schema and tablespace per service instance on a shared server. 1GB and 10GB of compressed database storage can hold up to 5GB and 50GB of uncompressed data respectively based on typical compression ratios.",
 		"free" : True,
-		"id" : uuid.uuid4(), # SHOULD BE UNIQUE
+		"id" : uuid.uuid4(), # SHOULD BE UNIQUE to test. 
+							 # In actual implementation, It should be its own unique ID. 
 		"metadata" : {
 	        "bullets" :[
 	            "A description of the resources that can be used with the plan.",
