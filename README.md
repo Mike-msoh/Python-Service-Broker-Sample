@@ -5,7 +5,7 @@
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/Mike-msoh/Python-Service-Broker-Sample.git)
 
 # Procedure
-0. Change host name of manifest.yml
+0. Change the hostname of manifest.yml
 1. Change Service.name in python-service-broker.py to your unique name. (default : py-auth-service)
 2. Deploy your app (ex. cf push)
 3. Register Service Broker (ex. cf create-service-broker Your-Broker-Name py-user py-pwd https://YourHost.mybluemix.net --space-scoped)
